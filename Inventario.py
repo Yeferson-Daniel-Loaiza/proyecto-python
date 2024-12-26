@@ -2,8 +2,7 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 import sqlite3
 import os
-import sys
-import shutil
+
 
 def conexion_base_datos():
     """Crea la carpeta 'src/db' y la base de datos si no existen."""
